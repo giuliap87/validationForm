@@ -75,12 +75,6 @@ function checkPasswordsMatch(input1, input2){
     }
 }
 
-//successful registration
-
-function successfulRegistration(){
-  alert(`Hi ${username.value}! Your account has been successfully created!`)
-}
-
 //Event listeners
 form.addEventListener("submit", function(e) {
   e.preventDefault();
